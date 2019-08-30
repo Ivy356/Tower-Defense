@@ -40,6 +40,8 @@ function turretColor(turretID) {
       return "#FF4500";
     case "turret4":
       return "#FF0000";
+    case "turret5":
+      return "#000000";
   }
 }
 
@@ -50,11 +52,13 @@ function turretValue(turretID) {
     case "turret1":
       return 100;
     case "turret2":
-      return 500;
+      return 1000;
     case "turret3":
-      return 2500;
+      return 15000;
     case "turret4":
-      return 10000;
+      return 250000;
+    case "turret5":
+      return 5000000;
   }
 }
 
@@ -70,6 +74,8 @@ function turretRange(turretID) {
       return 10 * TILE_W;
     case "turret4":
       return 15 * TILE_W;
+    case "turret5":
+      return 20 * TILE_W;
   }
 }
 
