@@ -52,9 +52,9 @@ function turretValue(turretID) {
     case "turret2":
       return 500;
     case "turret3":
-      return 1000;
+      return 2500;
     case "turret4":
-      return 5000;
+      return 10000;
   }
 }
 
@@ -65,11 +65,11 @@ function turretRange(turretID) {
     case "turret1":
       return 5 * TILE_W;
     case "turret2":
-      return 10 * TILE_W;
+      return 7 * TILE_W;
     case "turret3":
-      return 15 * TILE_W;
+      return 10 * TILE_W;
     case "turret4":
-      return 20 * TILE_W;
+      return 15 * TILE_W;
   }
 }
 
@@ -78,13 +78,13 @@ function turretDamage(turretID) {
     case "turret0":
       return 1;
     case "turret1":
-      return 3;
-    case "turret2":
       return 5;
-    case "turret3":
-      return 10;
-    case "turret4":
+    case "turret2":
       return 20;
+    case "turret3":
+      return 50;
+    case "turret4":
+      return 100;
   }
 }
 
