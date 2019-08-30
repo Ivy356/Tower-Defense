@@ -84,13 +84,15 @@ function turretDamage(turretID) {
     case "turret0":
       return 1;
     case "turret1":
-      return 5;
+      return 10;
     case "turret2":
-      return 20;
-    case "turret3":
       return 50;
+    case "turret3":
+      return 200;
     case "turret4":
-      return 100;
+      return 500;
+    case "turret5":
+      return 1000;
   }
 }
 
